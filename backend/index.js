@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from 'dotenv';
+import dbConnect from "./DB/dbConneect.js";
 
  const app = express();
 
@@ -13,5 +14,6 @@ import dotenv from 'dotenv';
 
 
  app.listen("3000", () => {
+   dbConnect();
     console.log(`Server is running on port ${PORT}`);
  })

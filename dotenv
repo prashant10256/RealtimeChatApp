@@ -1,1 +1,3 @@
 PORT = 3000
+
+MONGODB_CONNECT = `mongodb+srv://<username>:Prashant@101@cluster0.tlnnzyn.mongodb.net/RealtimeChatApp?retryWrites=true&w=majority&appName=Cluster0`
